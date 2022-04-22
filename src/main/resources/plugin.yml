@@ -1,0 +1,27 @@
+name: KeepInventory
+version: '${project.version}'
+main: com.github.benjameskain.keepinventory.Main
+api-version: 1.18
+authors: [ BenJamesKain ]
+description: Player-based keep inventory plugin.
+website: github.com/benjameskain
+
+permissions:
+  keepinventory.keepitems:
+    description: Keeps inventory on death, enables toggling
+    default: true
+  keepinventory.keepitems.others:
+    description: Allows changing if a target player will keep inventory on death.
+    default: op
+  keepinventory.keepxp:
+    description: Keeps experience on death, enables toggling
+    default: true
+  keepinventory.keepxp.others:
+    description: Allows changing if a target player will keep experience on death.
+    default: op
+  keepinventory.reload:
+    description: Reloads the keepinventory.config file.
+    default: op
+  keepinventory.help:
+    description: Shows command info
+    default: true
